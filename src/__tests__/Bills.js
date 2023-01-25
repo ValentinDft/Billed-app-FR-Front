@@ -68,7 +68,6 @@ describe("Given I am connected as an employee", () => {
         const handleClickOnEye = jest.fn(() =>
           billsContainer.handleClickIconEye(iconEye)
         );
-        console.log("OOOOOOOOO", handleClickOnEye);
         iconEye.addEventListener("click", handleClickOnEye);
         userEvent.click(iconEye);
 
